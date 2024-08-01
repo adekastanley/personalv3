@@ -3272,3 +3272,9 @@ ul.blog_pagination li a:hover {
 	display: flex;
 	gap: 8;
 }
+
+@media screen and (max-width: 1000px) {
+	#magic-cursor #ball {
+		display: none !important;
+	}
+}
